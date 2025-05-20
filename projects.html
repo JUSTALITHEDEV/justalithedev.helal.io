@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects | Helal</title>
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo-container">
+                <div class="logo-tilt">
+                    <img src="assets/images/Helal_logo.png" alt="Helal" class="logo-circle">
+                </div>
+                <span class="logo-text">HELAL</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="clients.html">Clients</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Projects</h1>
+            <p>Showcasing our passion and skills through code</p>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">App</button>
+                <button class="filter-btn" data-filter="game">Game</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>QR Code Generator Website</h3>
+                        <p>A QR Code Generator that you type your url in and get the QR Code.</p>
+                        <div class="project-links">
+                            <a href="https://justalithedev.github.io/justalithedev.qr.io/" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/JUSTALITHEDEV/justalithedev.qr.io.git" class="btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Typing Speed Test (Measure WPM)</h3>
+                        <p>a website that you can use to measure you typing speed with.</p>
+                        <div class="project-links">
+                            <a href="https://justalithedev.github.io/justalithedev.speedtest.io/" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/JUSTALITHEDEV/justalithedev.speedtest.io.git" class="btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="game">
+                    <div class="project-image">
+                        <img src="assets/images/project3.gif" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Endless Runner Game</h3>
+                        <p>2D Runner game built with Using html,css&js.</p>
+                        <div class="project-links">
+                            <a href="https://justalithedev.github.io/justalithedev.runnergame.io/" class="btn-small">Play Now</a>
+                            <a href="https://github.com/JUSTALITHEDEV/justalithedev.runnergame.io.git" class="btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/images/project4.jpg" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Wifi Speed Tester</h3>
+                        <p>Test your Wifi Speed using it NOW!!!</p>
+                        <div class="project-links">
+                            <a href="https://justalithedev.github.io/justalithedev.wifispeed.io/" class="btn-small">Live Demo</a>
+                            <a href="https://github.com/JUSTALITHEDEV/justalithedev.wifispeed.io.git" class="btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="coming-soon">
+                <h3>More Exciting Projects Coming Soon!</h3>
+                <p>We're constantly working on new ideas and innovations</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Helal Team. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
